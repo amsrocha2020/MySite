@@ -2167,7 +2167,7 @@ display: block;
 		flex-direction: column;
 		min-height: 100vh; /* Ensures the page-wrapper covers the entire viewport height */
 	}
-	
+
 	.wrapper {
 		background: #fff;
 		margin: 0 0 2em 0;
@@ -2307,8 +2307,8 @@ display: block;
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			border-left: solid 1px black;
-			border-right: solid 1px black;
+			/*border-left: solid 1px black;
+			border-right: solid 1px black;*/
 		}
 
 			#nav > ul:before, #nav > ul:after {
