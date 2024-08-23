@@ -2789,6 +2789,15 @@ display: block;
 				margin-bottom: 6em;
 			}
 
+			dt {
+				height: 45px !important;
+			}
+
+			dd {
+				width: 100%;
+    			float: left;
+			}
+
 		/* Section/Article */
 
 			section, article {
@@ -2805,6 +2814,10 @@ display: block;
 
 			header > p {
 				font-size: 1.25em;
+			}
+
+			#skills-section {
+				display: none !important;
 			}
 
 		/* Image */
