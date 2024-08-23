@@ -2177,9 +2177,10 @@ display: block;
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header2.jpg");
+		/*background-image: url("../../images/header2.jpg");*/
 		/*background-size: cover;*/
 		/*background-position: center center;*/
+		background-color: #2b252c;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
@@ -2305,15 +2306,15 @@ display: block;
 		}
 
 			#nav > ul:before, #nav > ul:after {
-				content: '';
 				display: block;
-				width: 300%;
 				position: absolute;
+				/*content: '';
+				width: 300%;
 				top: 50%;
 				margin-top: -2px;
 				height: 5px;
 				border-top: solid 1px black;
-				border-bottom: solid 1px black;
+				border-bottom: solid 1px black;*/
 			}
 
 			#nav > ul:before {
