@@ -2479,6 +2479,7 @@ display: block;
 		padding: 1em 0 1em 0;
 		background: #2b252c;
 		color: #fff;
+    	width: 100%;
 	}
 
 		#footer .icon.circled {
@@ -2879,6 +2880,9 @@ display: block;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
+				display: flex;
+    			flex-direction: column;
+    			min-height: 100vh;
 			}
 
 			#navButton {
@@ -3045,6 +3049,7 @@ display: block;
 
 			.wrapper {
 				padding: 3em 1em 3em 1em;
+				flex: 1;
 			}
 
 		/* Header */
